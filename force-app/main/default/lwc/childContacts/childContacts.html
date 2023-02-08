@@ -1,0 +1,25 @@
+<template>
+    <lightning-card title="Child Contacts">
+        <div class="slds-m-left_small"> 
+            <hr/>
+        <template if:true={accountRelatedContacts} for:each={accountRelatedContacts} 
+        for:item="con">
+       
+        <li key={con.Id}>
+            Name :&nbsp;{con.Name}
+        </li>
+        <li key={con.Id}>
+            Phone :&nbsp;{con.Phone}
+        </li>
+        <li key={con.Id}>
+            Title :&nbsp;{con.Title}
+        </li>
+        <li key={con.Id}>
+            Email :&nbsp;{con.Email} <hr/>
+        </li>
+        
+    </template>
+    
+</div>
+    </lightning-card>
+</template>

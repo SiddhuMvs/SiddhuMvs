@@ -1,0 +1,23 @@
+<template>
+    <div class="slds-size_1-of-1">
+    <lightning-card title="Accounts">
+        <!-- <lightning-layout multiple-rows>
+            <lightning-layout-item > -->
+                <div></div>
+        <div class="slds-m-left_small  " >
+        <template for:each={accountsReturned} for:item="acc">
+            <lightning-input label={acc.Name} type="checkbox" key={acc.Id} onchange={clickHandler} data-id={acc.Id}>
+
+            </lightning-input>
+           <!-- <ol key={acc.id} data-id={acc.id} onclick={clickHandler}>
+            <li>
+                {acc.Name}
+            </li>
+           </ol> -->
+        </template>
+    </div>
+<!-- </lightning-layout-item>
+</lightning-layout> -->
+    </lightning-card>
+</div>
+</template>

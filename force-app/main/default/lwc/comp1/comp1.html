@@ -1,0 +1,24 @@
+<template>
+    <!-- <lightning-card title="Recieved Data in component 1">
+       The Data I have received from component 2 is {Received}
+     </lightning-card>    <br/>
+    <c-comp2 onsend={sendHandler}></c-comp2>
+    <br/>
+     <c-comp3 entered-text={Received}></c-comp3> -->
+    <!-- <lightning-card title="Api method parent">
+        <lightning-input label="Enter the value"  onchange={chnageH}></lightning-input>
+    </lightning-card> -->
+    <lightning-card title="Accounts Data">
+       
+        <c-comp2 onpickvalue={trackPickValue} ></c-comp2>
+        
+        <lightning-button label="click" variant="Brand Outline" slot="actions" value={message} onclick={clickme}> </lightning-button>
+    </lightning-card>   <br/> 
+    <lightning-card>
+        <lightning-layout>
+            <lightning-layout-item>
+                <c-comp3 ></c-comp3>
+            </lightning-layout-item>
+        </lightning-layout>
+    </lightning-card>
+    </template>
