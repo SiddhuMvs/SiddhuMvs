@@ -16,6 +16,7 @@ export default class Comp1 extends LightningElement {
     // }
 
     // hello lwc added on 8th feb
+    // hello lwc second part addedd to the system
     // @track delivered;
      message ='Hello from parent';
 
