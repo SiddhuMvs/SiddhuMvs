@@ -15,7 +15,7 @@ export default class Comp1 extends LightningElement {
     //     this.enteredText = event.target.value;
     // }
 
-
+    // hello lwc added on 8th feb
     // @track delivered;
      message ='Hello from parent';
 
