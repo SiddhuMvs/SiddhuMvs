@@ -25,7 +25,7 @@ export default class Comp1 extends LightningElement {
     trackPickValue(event)
     {
         //debugger;
-        this.delivered = event.detail;
+        //this.delivered = event.detail;
         this.template.querySelector('c-comp3').loadAccounts(event.detail);
     }
 
